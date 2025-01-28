@@ -6,17 +6,20 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <div className='backgroundimg'></div>
-            <div> <section className="Section">
+            <div className='backgroundimg'>
+            </div>
+            <div>
+                 <section className="Section">
                 <div className="container">
                     <div>
                         <div >
-                            <div data-ux="Group">
+                            <div>
                                 <h1>ONBOARDING PROMOTION OFFER</h1>
                                 <h6 style={{ marginTop: '40px', fontSize: '22px' }}> FIRST 5000 SERVICE PROVIDERS GETS</h6>
                             </div></div></div><div data-ux="Grid">
                         <div>
-                            <div><a rel="noopener" data-ux-btn="primary" data-ux="ButtonPrimary" color="PRIMARY" fill="SOLID" shape="PILL" decoration="NONE" shadow="NONE" href="https://play.google.com/store/apps/details?id=com.yallasevapartner&amp;pcampaignid=web_share" target="_blank"></a>
+                            <div>
+                                <a href={`https://play.google.com/store/apps/details?id=com.yallasevapartner&amp;pcampaignid=web_share1`} target="_blank"></a>
                                 <div className='btn'>
                                     <button type="button" style={{
                                         background: '#fff',
