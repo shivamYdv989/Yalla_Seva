@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Footer from './Footer'
 const Services = () => {
     return (
         <>
@@ -105,7 +104,6 @@ const Services = () => {
                 <p style={{ textAlign: 'right', paddingRight: '20px', fontSize: '22px' }}>Powered by <a href='https://www.godaddy.com/'>GoDaddy</a></p>
                 <div style={{ textAlign: 'center' }}><a href='https://yallaseva.com/terms-%26-conditions' style={{ textAlign: 'center', cursor: 'pointer', fontSize: '22px' }}>TERMS & CONDITIONS</a></div>
             </div>
-            <Footer/>
         </>
     )
 }

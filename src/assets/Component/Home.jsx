@@ -17,13 +17,13 @@ const Home = () => {
                             </div></div></div><div data-ux="Grid">
                         <div>
                             <div><a rel="noopener" data-ux-btn="primary" data-ux="ButtonPrimary" color="PRIMARY" fill="SOLID" shape="PILL" decoration="NONE" shadow="NONE" href="https://play.google.com/store/apps/details?id=com.yallasevapartner&amp;pcampaignid=web_share" target="_blank"></a>
-                                <div class='btn'>
+                                <div className='btn'>
                                     <button type="button" style={{
                                         background: '#fff',
                                         padding: '20px 130px',
                                         minHeight: '56px',
                                         borderRadius: '48px'
-                                    }} class="btn btn-default">90 DAYS FREE SUBSCRIPTION- CLICK HERE TO INSTALL </button>
+                                    }} className="btn btn-default">90 DAYS FREE SUBSCRIPTION- CLICK HERE TO INSTALL </button>
                                 </div>
                             </div>
                         </div>
@@ -35,9 +35,9 @@ const Home = () => {
 
             <div style={{ display: 'flex' }}>
 
-                <section class="section">
-                    <div class="card">
-                        <div class="container" >
+                <section className="section">
+                    <div className="card">
+                        <div className="container" >
                             <h4><b>Our vision</b></h4>
                             <p style={{
                                 fontSize: '18px',
@@ -47,9 +47,9 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section class="section">
-                    <div class="card">
-                        <div class="container" >
+                <section className="section">
+                    <div className="card">
+                        <div className="container" >
                             <h4><b>Our Services</b></h4>
                             <p style={{
                                 fontSize: '18px',
@@ -61,9 +61,9 @@ const Home = () => {
                 </section>
             </div>
             <div style={{ display: 'flex' }}>
-                <section class="section">
-                    <div class="card">
-                        <div class="container" >
+                <section className="section">
+                    <div className="card">
+                        <div className="container" >
                             <h4><b>Our vision</b></h4>
                             <p style={{
                                 fontSize: '18px',
@@ -73,9 +73,9 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section class="section">
-                    <div class="card">
-                        <div class="container" >
+                <section className="section">
+                    <div className="card">
+                        <div className="container" >
                             <h4><b>Our Services</b></h4>
                             <p style={{
                                 fontSize: '18px',

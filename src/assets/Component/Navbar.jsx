@@ -2,15 +2,16 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+  const urlCheck=window.location.pathname
   return (
     <>
       <div className='row nav2'>
         <div className='col-md-4'><img src="https://img1.wsimg.com/isteam/ip/ddfa881c-381d-4902-9c2d-7a8358893eba/blob-eefb208.png/:/rs=w:95,h:95,cg:true,m/cr=w:95,h:95/qt=q:95" /></div>
         <div className='col-md-4'>
           <div style={{ display: 'flex' }}>
-            <p><Link to='/home' style={{ color: 'rgb(44, 110, 245)' }}>Home</Link></p>
+            <p><Link to='/home' style={{ color:urlCheck==='/home' ||urlCheck===''? 'rgb(44, 110, 245)':'' }}>Home</Link></p>
             <p style={{ paddingLeft: '32px' }}><a href='#'>REFUND & CANCELLATION</a></p>
-            <p style={{ paddingLeft: '32px' }}><Link to='/services'>Service</Link></p>
+            <p style={{ paddingLeft: '32px' }}><Link to='/services' style={{ color:urlCheck==='/services' ? 'rgb(44, 110, 245)':'' }}>Service</Link></p>
           </div>
         </div>
         <div className='col-md-4'><a rel="" role="link" aria-haspopup="false" data-ux="Link" href="tel:+918904020060" data-typography="LinkAlpha">+918904020060</a>
