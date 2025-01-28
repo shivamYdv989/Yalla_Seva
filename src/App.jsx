@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./assets/Component/home";
+import Home from "./assets/Component/Home";
 import Services from "./assets/Component/Services";
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
